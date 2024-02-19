@@ -1,0 +1,160 @@
+@import url("./style.css");
+
+.hero-section {
+	width: 1440px;
+	height: 600px;
+	background: var(--navy-blue);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 48px;
+	padding: 188px 472px 188px 472px;
+}
+
+.hero-section h1 {
+	width: 496px;
+	height: 120px;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07143;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--white);
+}
+
+.hero-section button {
+	width: 169px;
+	height: 56px;
+	padding: 16px 32px;
+	background: var(--iris);
+	border-radius: 4px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: var(--white);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.hero-section button:hover {
+	color: var(--green);
+	background: var(--slate);
+}
+
+.section-one {
+	width: 1128px;
+	height: 104px;
+	margin: 120px 156px;
+}
+
+.section-one-list {
+	display: flex;
+	padding: 0;
+	gap: 24px;
+}
+
+.section-one-list-item h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.section-one-list-item p {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--slate);
+}
+
+.section-one-list-item {
+	width: 264px;
+	height: 104px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.section-two {
+	width: 1128px;
+	height: 412px;
+	margin: 0 156px;
+	display: flex;
+	flex-direction: column;
+	gap: 72px;
+}
+
+.section-two h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11111;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.section-two-list {
+	display: flex;
+	padding: 0;
+	gap: 24px;
+}
+
+.section-two-list-item {
+	width: 360px;
+	height: 300px;
+}
+
+.section-tree {
+	width: 1440px;
+	height: 732px;
+	background: var(--cloud);
+	margin-top: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 72px;
+}
+
+.section-tree h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11111;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+}
+
+.card-list {
+	display: flex;
+	padding: 0;
+	gap: 24px;
+}
+
+.card {
+	width: 264px;
+	height: 380px;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+	background: var(--white);
+	padding: 0 0 32px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0px;
+}
+
+.card-content {
+	width: 232px;
+	height: 56px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	margin-top: 32px;
+}

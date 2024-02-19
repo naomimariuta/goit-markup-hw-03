@@ -1,0 +1,148 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+	--font-family: "Roboto", sans-serif;
+	--second-family: "Raleway", sans-serif;
+}
+
+* {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+body {
+	font-family: var(--font-family);
+	color: var(--navy-blue);
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.top-line {
+	width: 1440px;
+	height: 72px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	background: var(--white);
+	border-bottom: 1px solid var(--cornflower);
+	padding: 0px;
+	display: flex;
+}
+
+.logo {
+	width: 115px;
+	height: 24px;
+	padding: 24px 152px 24px 156px;
+	font-family: var(--second-family);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.16667;
+	letter-spacing: 0.03em;
+	color: var(--iris);
+}
+
+.logo::after {
+	content: "STUDIO";
+	color: var(--navy-blue);
+}
+
+.navbar-list {
+	width: 261px;
+	height: 24px;
+	padding: 24px 332px 24px 152px;
+	display: flex;
+	gap: 40px;
+}
+
+.navbar-list-item {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue);
+}
+
+.navbar-list-item:hover {
+	color: var(--green);
+}
+
+.contact {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	padding: 24px 0px 24px 212px;
+	display: flex;
+	gap: 40px;
+}
+
+.contact a {
+	color: var(--slate);
+}
+
+.contact a:hover {
+	color: var(--green);
+}
+
+.mail {
+	width: 153px;
+	height: 24px;
+}
+
+.tel {
+	width: 151px;
+	height: 24px;
+}
+
+.footer-section {
+	width: 1440px;
+	height: 312px;
+	background: var(--navy-blue);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 100px 1020px 100px 156px;
+}
+
+.footer-logo {
+	width: 115px;
+	height: 24px;
+	font-family: var(--second-family);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.16667;
+	letter-spacing: 0.03em;
+	color: var(--iris);
+}
+
+.footer-logo::after {
+	content: "STUDIO";
+	color: var(--cloud);
+}
+
+.footer-section p {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--cloud);
+	width: 264px;
+	height: 72px;
+}
