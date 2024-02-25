@@ -1,23 +1,17 @@
 @import url("./style.css");
 
-.filters-section {
-	padding: 96px 427px 72px 427px;
-}
-
 .filters-section-list {
-	width: 586px;
-	height: 48px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 24px;
-	padding: 0;
+	white-space: nowrap;
 }
 
 .filters-section-list-button {
+	padding: 12px 24px;
 	border: 1px solid var(--cornflower);
 	border-radius: 4px;
-	padding: 12px 24px;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 	background: var(--cloud);
 	font-weight: 500;
@@ -28,37 +22,10 @@
 	color: var(--iris);
 }
 
-.all {
-	width: 69px;
-}
-
-.web-site {
-	width: 116px;
-	white-space: nowrap;
-}
-
-.app {
-	width: 78px;
-}
-
-.design {
-	width: 101px;
-}
-
-.marketing {
-	width: 126px;
-}
-
 .filters-section-list-button:hover {
 	color: var(--white);
 	background: var(--ocean);
 	cursor: pointer;
-}
-
-.section-row {
-	width: 1128px;
-	height: 420px;
-	padding: 0 156px;
 }
 
 .section-row-list {
@@ -99,11 +66,4 @@
 
 .section-row.two {
 	padding-top: 48px;
-}
-
-.sections-list {
-	display: flex;
-	flex-direction: column;
-	gap: 48px;
-	padding: 0 0 120px 0;
 }
