@@ -114,6 +114,7 @@ li {
 .footer-section-style {
 	display: flex;
 	flex-direction: column;
+	gap: 16px;
 	width: 264px;
 }
 
