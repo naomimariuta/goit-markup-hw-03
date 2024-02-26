@@ -4,7 +4,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 24px;
+	gap: 40px;
 	white-space: nowrap;
 }
 
@@ -30,24 +30,21 @@
 
 .section-row-list {
 	display: flex;
-	gap: 24px;
-	padding: 0;
+	justify-content: space-between;
 }
 
 .project-card {
 	border: 1px solid var(--cornflower);
-	width: 360px;
-	height: 420px;
 	background: var(--white);
 }
 
-.project-card img {
-	padding-bottom: 32px;
+.project-card-info {
+	display: flex;
+	flex-direction: column;
+	margin: 32px 0 32px 16px;
 }
 
-.project-card h2 {
-	padding-bottom: 8px;
-	padding-left: 16px;
+.project-card-info h2 {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
@@ -55,15 +52,9 @@
 	color: var(--navy-blue);
 }
 
-.project-card span {
-	padding-bottom: 32px;
-	padding-left: 16px;
+.project-card-info span {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--slate);
-}
-
-.section-row.two {
-	padding-top: 48px;
 }
