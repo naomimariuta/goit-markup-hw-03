@@ -71,6 +71,7 @@ li {
 .navbar-list {
 	display: flex;
 	gap: 40px;
+	margin-right: 100px;
 }
 
 .navbar-list-item {
@@ -94,6 +95,7 @@ li {
 	letter-spacing: 0.02em;
 	display: flex;
 	gap: 40px;
+	margin-left: 100px;
 }
 
 .contact a {
